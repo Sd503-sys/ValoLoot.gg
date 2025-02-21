@@ -8,3 +8,12 @@ body{
     color:darkslategray;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#result{
+    width:400px ;
+    height: 80px;
+    border: 1px solid gold;
+
+}
+#result:empty {
+    display: none;
+}

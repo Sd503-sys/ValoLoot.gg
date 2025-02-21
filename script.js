@@ -7,10 +7,13 @@ function warn() {
 }
 
 function generateRandomWeapon() {
-    var wId = Math.floor( Math.random()  *6 +1);
+    var wId = Math.floor( Math.random()  *6 );
     weaponId = wId;
 }
 
 function showRandomWeapon() {
-    console.log(weaponId);
+    var  weapons = ['Vandal', 'Knife', 'Spectre', 'Operator', 'Sherrif', 'Ghost'];
+    var resultContainer = document.getElementById('result');
+    var weaponName = weapons[weaponId];
+    resultContainer.innerHTML = weaponName;
 }
