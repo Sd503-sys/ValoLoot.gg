@@ -5,18 +5,33 @@ body{
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      color:black;
  }
-
+body > div{
+    display:block;
+    margin:0 auto;
+}
  p{
-    color:darkslategray;
+    color:black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #result{
-    width:500px ;
     height: 20px;
     border: 5px solid gold;
+    margin-top: 10px;
     
 
 }
 #result:empty {
     display: none;
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 30%;
+    min-width: 400px;
+    height: 40%;
+    min-height: 300px;
+    padding: 25px;
+}
+#result-image{
+    width: 250px;
+    margin-top: 10px;
 }
