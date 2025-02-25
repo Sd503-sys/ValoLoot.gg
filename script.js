@@ -1,4 +1,17 @@
 var weaponId;
+var inventory=[];
+var alredyAdded=false;
+
+function addToInventory(){
+    if(alredyAdded || (weaponId !== 0 && !weaponId)) {
+        return;
+    }
+    inventory.push(weaponId);
+    alredyAdded=true;
+    console.log(inventory);
+}
+
+
 function warn() {
  //random Weapon generator
  generateRandomWeapon();
@@ -9,6 +22,7 @@ function warn() {
 function generateRandomWeapon() {
     var wId = Math.floor( Math.random()  *6 );
     weaponId = wId;
+    alredyAdded = false;
 }
 
 function showRandomWeapon() {
@@ -27,3 +41,4 @@ function showRandomWeapon() {
     resultContainer.innerHTML = weaponName;
     resultImageContainer.src = weaponUrls[weaponId];
 }
+
