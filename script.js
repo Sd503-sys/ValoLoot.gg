@@ -9,6 +9,7 @@ function addToInventory(){
     inventory.push(weaponId);
     alredyAdded=true;
     console.log(inventory);
+    
 }
 
 
@@ -41,4 +42,3 @@ function showRandomWeapon() {
     resultContainer.innerHTML = weaponName;
     resultImageContainer.src = weaponUrls[weaponId];
 }
-
