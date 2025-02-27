@@ -27,11 +27,10 @@ function addToInventory(){
     img.src = weaponUrls[weaponId];
     img.style.width = 80;
     var inventoryContainer = document.getElementById('inventory');
-    inventoryContainer.append(img);
+    inventoryContainer.append(img);    
     console.log(inventoryContainer);
     console.log(inventory);   
 }
-
 
 
 function warn() {
