@@ -40,7 +40,7 @@ p {
 }
 
 .inventory {
-    margin-top: 25px;
+    margin-top: -15px;
     width: 98%;
     background-color: rgba(99, 99, 99, .75);
     padding: 3px;
@@ -91,3 +91,7 @@ body {
     margin-top: 5px;
     margin-left: 10px;
   }
+
+#inventory:empty {
+    display: none;
+}

@@ -29,8 +29,10 @@ function addToInventory(){
     var inventoryContainer = document.getElementById('inventory');
     inventoryContainer.append(img);
     console.log(inventoryContainer);
-    console.log(inventory);
+    console.log(inventory);   
 }
+
+
 
 function warn() {
  //random Weapon generator
