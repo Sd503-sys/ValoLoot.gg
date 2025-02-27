@@ -6,27 +6,18 @@
     </head>
     <body>
         <h1> ValoLoot.gg </h1>
-        <style>
-            body {
-              margin: 0;
-            }
         
-            h1 {
-              text-align: left;
-              margin-top: 5px;
-              margin-left: 10px;
-            }
-          </style>
         <div class="content">
             <p> Viel Spaß beim Spielen</p>
             <div id="action-bar">
-                <button id="generate-weapon" class="spin-button" onclick="warn()">Get Weapon </button>
-                <button id="add-to-inventory" onclick="addToInventory()">Take Weapon</button>
+                <button id="generate-weapon" class="action" onclick="warn()">Get Weapon </button>
+                <button id="add-to-inventory" class="action" onclick="addToInventory()">Take Weapon</button>
             </div>
-         
-      
             <div id="result"></div>
             <img id="result-image">
+        </div>
+        <div class="inventory" id="inventory">
+
         </div>
     </body>
 </html>

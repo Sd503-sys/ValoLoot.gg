@@ -1,3 +1,3 @@
 # ValoLoot.gg
 Loot generator für Valorant!
-1.Schritt des Projekts
+In diesem Projekt können sie einen Generator für Valorant Waffen und deren Skins benutzen
